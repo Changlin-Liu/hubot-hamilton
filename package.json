@@ -1,0 +1,32 @@
+{
+  "name": "hubot-hamilton",
+  "description": "Hamilton motivation",
+  "version": "0.1.0",
+  "author": "Jonathan Kaufman <jondakauf@gmail.com>",
+  "license": "MIT",
+  "keywords": "hubot, hubot-scripts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kauffecup/hubot-hamilton.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/hamilton-test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/kauffecup/hubot-hamilton/issues"
+  },
+  "homepage": "https://github.com/kauffecup/hubot-hamilton",
+  "dependencies": {},
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "hubot": "2.x",
+    "matchdep": "~0.3.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.13.0",
+    "sinon-chai": "^2.7.0"
+  },
+  "main": "index.js"
+}
