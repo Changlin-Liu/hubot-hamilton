@@ -23,7 +23,12 @@ Then add **hubot-hamilton** to your `external-scripts.json`:
 
 ## Sample Interaction
 
+Can specify either `hubot hamilton` or `hubot hamilton <character-name>`
+
 ```
 user1>> hubot hamilton
 hubot>> I think your pants look hot
+
+user2>> hubot hamilton mulligan
+hubot>> That's right - HERCULES MULLIGAN !!
 ```
